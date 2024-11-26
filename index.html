@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table {
+            border: 1px solid red;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr, th, td {
+            border: 1px solid black;
+            width: 100px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <!-- 1st Row -->
+        <tr>
+            <td colspan="2" bgcolor="red">2</td>
+            <td>2</td>
+            <td>2</td>
+            <td colspan="2" bgcolor="blue">2</td>
+            <td colspan="2" bgcolor="red">2</td>
+        </tr>
+        <!-- 2nd Row -->
+        
+        <tr>
+            <td bgcolor="brown" rowspan="2" colspan="2">3</td>
+            <td bgcolor="red" rowspan="4" colspan="2">3</td>
+            <td bgcolor="yellow" rowspan="4" colspan="2">3</td>
+            <td rowspan="4" bgcolor="blue" colspan="2">3</td>
+        </tr>
+        
+        <!-- 3rd Row -->
+        <tr>
+            <!--  -->
+        </tr>
+        <!-- 4th Row -->
+        
+        <tr>
+            <td bgcolor="aqua" colspan="2" rowspan="2">4</td>
+        </tr>
+        <!-- 5th Row -->
+        
+        <tr>
+         
+        </tr>
+        <!-- 6th Row -->
+        
+        <tr>
+            <td bgcolor="blue" rowspan="3" colspan="3">6</td>
+            <td bgcolor="brown" rowspan="3">6</td>
+            <td bgcolor="red" rowspan="3" colspan="4">6</td>
+        </tr>
+        <!-- 7th Row -->
+        
+        <tr>
+            <!--  -->
+        </tr>
+        <!-- 8th Row -->
+        <tr>
+         
+        </tr>
+        <!-- 9th Row -->
+        <tr>
+            <td bgcolor="tomato" rowspan="2" colspan="2">9</td>
+            <td bgcolor="yellow" rowspan="2" colspan="2">9</td>
+            <td bgcolor="blue" rowspan="2" colspan="2">9</td>
+            <td bgcolor="aqua" rowspan="2" colspan="2">9</td>
+        </tr>
+        <!-- 10th Row -->
+        <tr>
+        </tr>
+    </table>
+</body>
+</html>
